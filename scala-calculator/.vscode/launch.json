@@ -9,7 +9,7 @@
             "name": "Debug ",
             "request": "launch",
             "mainClass": "Main",
-            "args": ["15", "12", "+"]
+            "args": ["1", "2", "+", "4", "*", "3", "+"]
         }
     ]
 }

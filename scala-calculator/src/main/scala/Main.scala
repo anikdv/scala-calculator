@@ -1,7 +1,12 @@
 import RationalNumbers.Rational
+import RationalNumbers.RationalString
+import RationalCalculator.Calculator
 
 object Main extends App {
-  var x = new Rational(5, 6)
-  var y = new Rational(7, 6)
-  println(x.add(y))
+  println("Calculation started")
+  print("Expression is: ")
+  args.foreach(arg => print(arg + " "))
+  println()
+  print("Result is: ")
+  println(Calculator.calculate(args, Array()))
 }
